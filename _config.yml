@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vipul Mann"
+title                    : "Minal Patil"
 title_separator          : "-"
-name                     : &name "Vipul Mann"
+name                     : &name "Minal Patil"
 description              : &description "Personal Description"
-url                      : https://vupil.github.io # the base hostname & protoco for your site e.g. "https://mmistakes.github.io"
+url                      : https://minalp22.github.io # the base hostname & protoco for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "vupil/vupil.github.io"
+repository               : "minalp22/minalp22.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -23,7 +23,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : vupil-github-io
+    shortname            : minalp22-github-io
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -80,16 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vipul Mann"
+  name             : "Minal Patil"
   avatar           : "profile.jpg"
-  bio              : "Doctoral Student at Columbia University"
-  location         : "New York, United States"
+  bio              : "Business Strategy Manager at CleanMax Solar | IIT Madras"
+  location         : "Bangalore, India"
   employer         :
   pubmed           :
-  email            : "vm2583@columbia.edu"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=BtgjFdAAAAAJ"
-  linkedin         : "vipulmann"
-  researchgate     : "https://www.researchgate.net/profile/Vipul_Mann2"
+  email            : "minalpatil.iit@gmail.com"
+  googlescholar    : #"https://scholar.google.com/citations?hl=en&user=BtgjFdAAAAAJ"
+  linkedin         : "minalpatil124"
+  researchgate     : #"https://www.researchgate.net/profile/Vipul_Mann2"
   uri              :
   bitbucket        :
   codepen          :
