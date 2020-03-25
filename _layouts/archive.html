@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
